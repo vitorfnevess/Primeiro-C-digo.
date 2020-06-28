@@ -1,0 +1,15 @@
+caracter resposta 
+inteiro quantFuncionarios = 0
+inteiro gostamdeCafe = 0
+escreva ("Gosta de café (S) ou (N)? ")
+leia (resposta)
+se (resposta == 'S') {gostamdeCafe = gostamdeCafe + 1}
+enquanto (resposta == 'S' ou resposta == 'N'){
+escreva ("Gosta de café (S) ou (N)? ")
+leia (resposta)
+quantFuncionarios = quantFuncionarios + 1
+se (resposta == 'S') {gostamdeCafe = gostamdeCafe + 1}
+se (resposta == '0') { pare }
+} 
+escreva ("Quantidade de funcionários: ", quantFuncionarios)
+escreva ("\nQuantidade de funcionários que gostam de café: ", gostamdeCafe)
